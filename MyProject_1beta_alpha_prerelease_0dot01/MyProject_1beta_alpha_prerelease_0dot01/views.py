@@ -55,3 +55,12 @@ def paris(request):
 
 def barsa(request):
     return render(request, "Barsa.html")
+
+
+class Ziga:
+    def throw(self):
+        print("Zig Hail!")
+
+
+myZiga = Ziga()
+myZiga.throw()
